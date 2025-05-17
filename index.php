@@ -77,18 +77,21 @@ include_once('includes/navbar.php');
         </div>
 
       </div>
-      <!-- Little about us AH SAZZAD-->
+      
     </section>
-    <section id="about" class="about section">
+  <!-- Little about us AH SAZZAD-->
+  <section id="about" class="about section mt-5">
 
       <div class="container" >
 
+      <h3>ABOUT US</h3>
+      <hr>
+
         <div class="row gy-4 align-items-center justify-content-between">
 
-          <div class="col-xl-5 pt-5" >
-            <!--copy From Hero-Text start@AH_SAZZAD for CSS-->
-
-              <h1 class="mb-4 fs-3" >
+          <div class="col-xl-5">
+            
+            <h1 class="mb-4 fs-3" >
               Building the Future with ICT <br>
                 <span class="club-name " id="club-name" >NDCM ICT CLUB</span>
               </h1>
@@ -97,24 +100,27 @@ include_once('includes/navbar.php');
                  The ICT Club is a platform for students passionate about technology, innovation, and collaboration. We encourage learning through hands-on activities, coding, seminars, and team projects to help members grow their skills and confidence in the world of ICT.
                  </p>
 
-              <div class="hero-buttons">
-                <a href="#about" class="btn btn-outline-primary me-0 me-sm-2 mx-1 mb-sm-3">Get Started</a>
-              </div>
-            </div>
-            <!--copy From Hero-Text end@AH_SAZZAD-->
-            <div class="row feature-list-wrapper">
+            <div class="row ">
               <div class="col-md-6">
-                <ul class="feature-list">
-                  <li><i class="bi bi-check-circle-fill"></i> Lorem ipsum dolor sit amet</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Consectetur adipiscing elit</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Sed do eiusmod tempor</li>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item d-flex align-item-center">
+                     <img src="assets/img/cheek.svg" style="width:1.5vw" alt=""class="me-2">
+                     <p class="m-0"> Hands-on coding workshops</p>
+                  </li>
+                  <li class="list-group-item d-flex align-item-center">
+                    <img src="assets/img/cheek.svg" style="width:1.5vw" alt=""class="me-2">
+                    Seminars on emerging technologies
+                  </li>
+                  <li class="list-group-item d-flex align-item-center"><img src="assets/img/cheek.svg" style="width:1.5vw" alt=""class="me-2">Team-based project development</li>
+                  <li class="list-group-item d-flex align-item-center"><img src="assets/img/cheek.svg" style="width:1.5vw" alt=""class="me-2">Participation in ICT competitions</li>
                 </ul>
               </div>
               <div class="col-md-6">
-                <ul class="feature-list">
-                  <li><i class="bi bi-check-circle-fill"></i> Incididunt ut labore et</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Dolore magna aliqua</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Ut enim ad minim veniam</li>
+                <ul class="list-group list-group-flush ">
+                  <li class="list-group-item d-flex align-item-center"><img src="assets/img/cheek.svg" style="width:1.5vw" alt=""class="me-2">Skill-building mentorship programs</li>
+                  <li class="list-group-item d-flex align-item-center"><img src="assets/img/cheek.svg" style="width:1.5vw" alt=""class="me-2">Creative tech-based activities</li>
+                  <li class="list-group-item d-flex align-item-center"><img src="assets/img/cheek.svg" style="width:1.5vw" alt=""class="me-2">Platform to showcase student innovations</li>
+                 <li class="list-group-item d-flex align-item-center"><img src="assets/img/cheek.svg" style="width:1.5vw" alt="" class="me-2">Friendly and collaborative environment</li>
                 </ul>
               </div>
             </div>
@@ -123,36 +129,22 @@ include_once('includes/navbar.php');
               <div class="row gy-4">
                 <div class="col-lg-5">
                   <div class="profile d-flex align-items-center gap-3">
-                    <img src="assets/img/avatar-1.webp" alt="CEO Profile" class="profile-image">
-                    <div>
-                      <h4 class="profile-name">Mario Smith</h4>
-                      <p class="profile-position">CEO &amp; Founder</p>
-                    </div>
+                    <div class="hero-buttons">
+                <a href="pages/about.php" class="btn btn-outline-primary me-0 me-sm-2 mx-1 mb-sm-3">More About Us</a>
+              </div>
                   </div>
                 </div>
-                <div class="col-lg-7">
-                  <div class="contact-info d-flex align-items-center gap-2">
-                    <i class="bi bi-telephone-fill"></i>
-                    <div>
-                      <p class="contact-label">Call us anytime</p>
-                      <p class="contact-number">+123 456-789</p>
-                    </div>
-                  </div>
-                </div>
+                
               </div>
             </div>
           </div>
 
-          <div class="col-xl-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-xl-6">
             <div class="image-wrapper">
-              <div class="images position-relative" data-aos="zoom-out" data-aos-delay="400">
-                <img src="assets/img/about-5.webp" alt="Business Meeting" class="img-fluid main-image rounded-4">
-                <img src="assets/img/about-2.webp" alt="Team Discussion" class="img-fluid small-image rounded-4">
+              <div class="images position-relative" >
+                <img src="assets/img/about.jpg" alt="" class="img-fluid main-image rounded-4">
               </div>
-              <div class="experience-badge floating">
-                <h3>15+ <span>Years</span></h3>
-                <p>Of experience in business service</p>
-              </div>
+              
             </div>
           </div>
         </div>
@@ -160,6 +152,8 @@ include_once('includes/navbar.php');
       </div>
 
     </section>
+
+
 <?php
 include_once('includes/footer.php');    
 ?>
