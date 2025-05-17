@@ -79,3 +79,15 @@
             list-style: none;
         
         }
+        .info{
+            background-color: #8f9cda;
+            border-radius: 25px;
+        }
+        .info-item >div{
+            color: #FFFFFF;
+        }
+        .contact-form{
+            background-color:#fff ;
+            border-radius: 20px;
+        }
+        

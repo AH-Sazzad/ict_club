@@ -33,7 +33,7 @@ include_once('includes/navbar.php');
 
           <div class="col-lg-6">
             <div class="hero-image " >
-              <img src="assets/img/hero.jpg" alt="Hero Image" class="img-fluid ">
+              <img src="/ict_club/assets/img/hero.jpg" alt="Hero Image" class="img-fluid ">
             </div>
           </div>
         </div>
@@ -142,7 +142,7 @@ include_once('includes/navbar.php');
           <div class="col-xl-6">
             <div class="image-wrapper">
               <div class="images position-relative" >
-                <img src="assets/img/about.jpg" alt="" class="img-fluid main-image rounded-4">
+                <img src="/ict_club/assets/img/about.jpg" alt="" class="img-fluid main-image rounded-4">
               </div>
               
             </div>
