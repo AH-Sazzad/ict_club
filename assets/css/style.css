@@ -1,0 +1,76 @@
+
+        .navbar-brand {
+            font-weight: bold;
+        }
+.dropdown-toggle::after {
+     margin-left: 0.5em;
+}
+
+.nav-item{
+    margin: 0 6px;
+}
+.nav_link:hover{
+        color: #0d6efd;
+    
+}.developer{
+    color: darkorange;
+    font-size: 1rem;
+}  
+.inner{
+    background:
+  linear-gradient(217deg (#F3F9FF,#FFFFFF));
+} 
+.head-into {
+    background-color:#E1EFFF ;
+   font-family: "Poppins", sans-serif;
+   max-width: 40%;
+  
+}   
+.head-title{
+    max-width: 50%;
+}
+#success-text{
+
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(45deg, #007bff, #00ff88);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-top:3vh;
+        
+}
+#club-name{
+            font-size: 3rem;
+            font-weight: 700;
+            background: linear-gradient(45deg, #007bff, #00ff88);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-top:3vh;
+}
+.achievement-card{
+            background-color: #F3F8FF;
+            transition: transform 0.3s;
+}
+.achievement-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+
+        .achievement-number {
+            
+            font-weight: 700;
+            color: #0d6efd;
+        }
+        .achievement-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .achievement-desc {
+            color: #6c757d;
+            font-size: 0.9rem;
+        }
