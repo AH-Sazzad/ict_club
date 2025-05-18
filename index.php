@@ -152,6 +152,140 @@ include_once('includes/navbar.php');
       </div>
 
     </section>
+    <!--rules section start-->
+    
+<section id="rules" class="rules-2-section mt-5">
+
+       
+
+      <div class="container" >
+         <div class="rules-title mt-4 d-flex justify-content-center">
+           <h1 class="club-name" id="club-name">Rules & Regulations</h1>
+          
+          </div>
+           <hr>
+
+        <div class="row align-items-center mt-5">
+
+          <div class="col-lg-4">
+
+            <div class=" rules text-end mb-5" >
+              <div class="d-flex align-items-center justify-content-end gap-4">
+                <div class="rules-content">
+                  <h3>Respect Club Members and Mentors</h3>
+                  <p>Always maintain respectful behavior during meetings, events, and online discussions</p>
+                </div>
+                <div class="rules-icon flex-shrink-0">
+                  <img src="assets/img/honesty.png " style="width:3.5vw" alt="">
+                </div>
+              </div>
+            </div><!-- End .rules-item -->
+
+            <div class="rules-item text-end mb-5" >
+              <div class="d-flex align-items-center justify-content-end gap-4">
+                <div class="rules-content">
+                  <h3>Maintain Punctuality</h3>
+                  <p>Attend meetings, workshops, and events on time and actively participate</p>
+                </div>
+                <div class="rules-icon flex-shrink-0">
+                  <img src="assets/img/punctuality.png " style="width:3.5vw" alt="">
+                </div>
+              </div>
+            </div><!-- End .rules-item -->
+
+            <div class="rules-item text-end" >
+              <div class="d-flex align-items-center justify-content-end gap-4">
+                <div class="rules-content">
+                  <h3>Complete Assigned Tasks Responsibly</h3>
+                  <p>Members must complete their assigned work or projects on time.</p>
+                </div>
+                <div class="rules-icon flex-shrink-0">
+                   <img src="assets/img/daily-routine.png " style="width:3.5vw" alt="">
+                </div>
+              </div>
+            </div><!-- End .rules-item -->
+
+          </div>
+
+          <div class="col-lg-4" >
+            <div class="phone-mockup text-center">
+              <img src="assets/img/phone.png" alt="Phone Mockup" class="img-fluid">
+            </div>
+          </div><!-- End Phone Mockup -->
+
+          <div class="col-lg-4">
+
+            <div class="rules-item mb-5">
+              <div class="d-flex align-items-center gap-4">
+                <div class="rules-icon flex-shrink-0">
+                   <img src="assets/img/technology.png " style="width:3.5vw" alt="">
+                </div>
+                <div class="rules-content">
+                  <h3>Use Technology Responsibly</h3>
+                  <p>ICT tools and resources should be used ethically, without engaging in any harmful or illegal activity.</p>
+                </div>
+              </div>
+            </div><!-- End .rules-item -->
+
+            <div class="rules-item mb-5" data-aos="fade-left" data-aos-delay="300">
+              <div class="d-flex align-items-center gap-4">
+                <div class="rules-icon flex-shrink-0">
+                   <img src="assets/img/documents.png " style="width:3.5vw" alt="">
+                </div>
+                <div class="rules-content">
+                  <h3>No Plagiarism</h3>
+                  <p>Always submit original work. Copying code, designs, or content without permission is strictly prohibited</p>
+                </div>
+              </div>
+            </div><!-- End .rules-item -->
+
+            <div class="rules-item" >
+              <div class="d-flex align-items-center gap-4">
+                <div class="rules-icon flex-shrink-0">
+                   <img src="assets/img/workplace.png " style="width:3.5vw" alt="">
+                </div>
+                <div class="rules-content">
+                  <h3>Maintain Clean and Organized Workspaces</h3>
+                  <p>Members must take care of club equipment and keep labs or meeting rooms tidy.</p>
+                </div>
+              </div>
+            </div><!-- End .rules-item -->
+
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+     <!--admission CTA --> 
+    
+    
+    <section id="call-to-action" class="call-to-action section">
+
+      <div class="container admission-cta rounded-3 " >
+
+        <div class="  row content justify-content-center align-items-center position-relative">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="display-4 mb-4 text-white">Join the ICT Club — Ignite Your Tech Journey</h2>
+            <p class="mb-4  text-white">The ICT Club welcomes students who are passionate about technology, creativity, and collaboration. By joining, you’ll have access to workshops, coding sessions, competitions, and real-world projects. Whether you're a beginner or advanced, we encourage you to grow with us. Apply now and be part of a vibrant tech community!</p>
+            <button class="btn btn-outline-success  text-white">Get Start</button>
+          </div> 
+        </div>
+
+      </div>
+
+    </section>
+    <!--Contact page adding using PHP-->
+    <section>
+        <div class="container">
+          <?php
+          include_once('pages/contact.php');
+          ?>
+        </div>
+
+    </section>
+
+   
 
 
 <?php
