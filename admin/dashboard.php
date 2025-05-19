@@ -1,1 +1,5 @@
-<h1>Admin Dashboard</h1>
+<?php
+$view="dashboard";
+include('temp.php');
+
+?>

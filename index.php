@@ -1,4 +1,6 @@
 <?php
+ob_start();
+session_start();
 include_once('includes/header.php');
 include_once('includes/navbar.php');
 ?>
@@ -279,8 +281,8 @@ include_once('includes/navbar.php');
     <section>
         <div class="container">
           <?php
-          include_once('pages/contact.php');
-          ?>
+            include_once('pages/contact.php');    
+            ?>
         </div>
 
     </section>

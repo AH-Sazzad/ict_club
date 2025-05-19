@@ -39,7 +39,16 @@
         </div>
 
         <div class="container">
+            <?php
+            if(isset($view)){
+                if($view=="dashboard"){
+                    include("view/view_dashboard.php");
+                }elseif($view=="all_contact"){
+                    include("view/view_contact.php");
+                }
+            }
             
+            ?>
         </div>
          <?php include_once('../includes/admin_footer.php');?>
       </div>
