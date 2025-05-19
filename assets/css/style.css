@@ -118,6 +118,14 @@
             padding: 80px 0;
             color: #000;
 }
+.sidebar-logo{
+    width: 50px;
+    height: 50px;
+
+}
+.title_nav a{
+    list-style: none;
+}
 
 
 
