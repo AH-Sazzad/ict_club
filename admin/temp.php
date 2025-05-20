@@ -45,6 +45,8 @@
                     include("view/view_dashboard.php");
                 }elseif($view=="all_contact"){
                     include("view/view_contact.php");
+                }elseif($view=="contact"){
+                  include("view/view_contact_details.php?$readid");
                 }
             }
             

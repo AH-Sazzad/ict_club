@@ -28,7 +28,7 @@ include_once('includes/navbar.php');
                  </p>
 
               <div class="hero-buttons">
-                <a href="#about" class="btn btn-outline-primary me-0 me-sm-2 mx-1 mb-sm-3">Get Started</a>
+                <a href="pages/admission.php" class="btn btn-outline-primary me-0 me-sm-2 mx-1 mb-sm-3">Get Started</a>
               </div>
             </div>
           </div>
@@ -270,7 +270,7 @@ include_once('includes/navbar.php');
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="display-4 mb-4 text-white">Join the ICT Club — Ignite Your Tech Journey</h2>
             <p class="mb-4  text-white">The ICT Club welcomes students who are passionate about technology, creativity, and collaboration. By joining, you’ll have access to workshops, coding sessions, competitions, and real-world projects. Whether you're a beginner or advanced, we encourage you to grow with us. Apply now and be part of a vibrant tech community!</p>
-            <button class="btn btn-outline-success  text-white">Get Start</button>
+            <a href="pages/admission.php"><button class="btn btn-outline-success">Get Started</button></a>
           </div> 
         </div>
 
