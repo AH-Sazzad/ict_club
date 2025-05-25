@@ -1,5 +1,24 @@
-<?php include_once(__DIR__ . '/../config.php'); 
+<?php 
+
+include_once(__DIR__ . '/../config.php'); 
  include_once('../includes/admin_head.php'); 
+
+ session_start();
+
+if (!isset($_SESSION['admin_id']) || $_SESSION['admin_id'] === null) {
+  header('Location: login.php');
+  exit;
+}
+
+$id = $_SESSION['admin_id'];
+
+if(isset($_GET['adminlogout'])){
+  if(($_GET['adminlogout'])=='logout'){
+    unset($_SESSION['admin_id']);
+    unset($_SESSION['admin_email']);
+    header('location:index.php');
+  }
+}
 ?>
 
         <div class="wrapper">
@@ -46,7 +65,18 @@
                 }elseif($view=="all_contact"){
                     include("view/view_contact.php");
                 }elseif($view=="contact"){
-                  include("view/view_contact_details.php?$readid");
+                    include("view/view_contact_details.php?readid=$contact_id");
+                }elseif($view=="admission"){
+                  include_once("view/view_admission.php");
+                }
+                elseif($view=="allpost"){
+                  include("view/allpost.php");
+                }
+                elseif($view=="allpost"){
+                  include("view/allpost.php");
+                }
+                elseif($view=="allpost"){
+                  include("view/allpost.php");
                 }
             }
             

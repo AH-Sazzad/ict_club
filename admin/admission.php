@@ -1,4 +1,4 @@
 <?php
-$view="allpost";
+$view="admission";
 include('temp.php');
 ?>

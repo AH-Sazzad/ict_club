@@ -1,5 +1,6 @@
 <?php
  include_once(__DIR__ . '/../../config.php');
+include_once(__DIR__.'/../../includes/admin_head.php');
 
 
 // Set defaults to avoid "undefined variable" warnings
@@ -28,16 +29,15 @@ if (isset($_GET['readid'])) {
     }
 }
 ?>
+  
 
 
 
 
-
-<section>
     <div class="contact-form py-3 px-4" >
               <h3>Contact Details</h3>
 
-              <form action="<?php  echo $_SERVER['PHP_SELF']?>" method="post" class="php-email-form" >
+              <form action="" method="post" class="php-email-form" >
                 <div class="row gy-4">
 
                   <div class="col-md-6">
@@ -71,7 +71,7 @@ if (isset($_GET['readid'])) {
               </form>
 
             </div>
-</section>
+
 
 
 

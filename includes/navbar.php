@@ -18,25 +18,9 @@ include_once('header.php');
                         <a class="nav-link" href="/ict_club/pages/co_curricular.php">Co_Curricular</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/ict_club/pages/rules.php">Rules</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/notice.php">Notice</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="/ict_club/pages/contact.php">Contact</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
-                            Usefull Link
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/ict_club/pages/contact.php">Contact Us</a></li>
-                            <li><a class="dropdown-item" href="/ict_club/pages/blog.php">Our Blog</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="/ict_club/pages/about.php">About</a></li>
-                        </ul>
-                    </li>
+                    <li><a class="nav-link" href="/ict_club/pages/about.php">About</a></li>
                     
                 </ul>
                 
