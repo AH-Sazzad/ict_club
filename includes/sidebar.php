@@ -1,8 +1,21 @@
-<?php 
- include_once(__DIR__ . '/../config.php');  
+<?php
+ob_start();
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+include_once(__DIR__ . '/../config.php');  
 include_once('admin_head.php');
-?>
+$admin_info="SELECT*FROM admin_info";
+$query=mysqli_query($conn,$admin_info);
+$admin_data=mysqli_fetch_assoc($query);
+$id=$admin_data['id'];
+$name=$admin_data['admin_name'];
+$bio=$admin_data['bio'];
+$email=$admin_data['email'];
+$img=$admin_data['profile'];
 
+
+?>
 <div class="wrapper">
       <!-- Sidebar -->
       <div class="sidebar" data-background-color="dark">
@@ -88,6 +101,11 @@ include_once('admin_head.php');
                         <span class="sub-item">Edit Post</span>
                       </a>
                     </li>
+                    <li>
+                      <a href="../admin/post_cat.php">
+                        <span class="sub-item">Category</span>
+                      </a>
+                    </li>
                   </ul>
                 </div>
               </li>
@@ -153,14 +171,14 @@ include_once('admin_head.php');
                   >
                     <div class="avatar-sm">
                       <img
-                        src="../assets/img/profile-user.png"
+                        src="<?php echo $img;?>"
                         alt="..."
                         class="avatar-img rounded-circle"
                       />
                     </div>
                     <span class="profile-username">
                       <span class="op-7">Hi,</span>
-                      <span class="fw-bold">AH Sazzad</span>
+                      <span class="fw-bold"><?php echo $name;?></span>
                     </span>
                   </a>
                   <ul class="dropdown-menu dropdown-user animated fadeIn">
@@ -169,14 +187,14 @@ include_once('admin_head.php');
                         <div class="user-box">
                           <div class="avatar-lg">
                             <img
-                              src="../assets/img/profile-user.png"
+                              src="<?php echo $img?>"
                               alt="image profile"
                               class="avatar-img rounded"
                             />
                           </div>
                           <div class="u-text">
-                            <h4>Hizrian</h4>
-                            <p class="text-muted">hello@example.com</p>
+                            <h4><?php echo $name?></h4>
+                            <p class="text-muted"><?php echo $email?></p>
                             <a
                               href="../admin/profile.php            "
                               class="btn btn-xs btn-secondary btn-sm"
@@ -187,7 +205,7 @@ include_once('admin_head.php');
                       </li>
                       <li>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="../admin/editprofile.php">Edit Profile</a>
+                        <a class="dropdown-item" href="../admin/profile.php">Edit Profile</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="?adminlogout=logout">Logout</a>
                       </li>

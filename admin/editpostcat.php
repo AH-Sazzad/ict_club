@@ -1,4 +1,4 @@
 <?php
-$view="admin_info";
+$view="editpostcat";
 include('temp.php');
 ?>

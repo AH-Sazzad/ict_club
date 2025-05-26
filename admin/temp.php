@@ -1,9 +1,13 @@
 <?php 
+ob_start();
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
 
 include_once(__DIR__ . '/../config.php'); 
  include_once('../includes/admin_head.php'); 
 
- session_start();
+
 
 if (!isset($_SESSION['admin_id']) || $_SESSION['admin_id'] === null) {
   header('Location: login.php');
@@ -65,18 +69,27 @@ if(isset($_GET['adminlogout'])){
                 }elseif($view=="all_contact"){
                     include("view/view_contact.php");
                 }elseif($view=="contact"){
-                    include("view/view_contact_details.php?readid=$contact_id");
+                    include("view/view_contact_details.php");
                 }elseif($view=="admission"){
                   include_once("view/view_admission.php");
                 }
                 elseif($view=="allpost"){
                   include("view/allpost.php");
                 }
-                elseif($view=="allpost"){
-                  include("view/allpost.php");
+                elseif($view=="addpost"){
+                  include("view/addpost.php");
                 }
-                elseif($view=="allpost"){
-                  include("view/allpost.php");
+                elseif($view=="postcat"){
+                  include("view/postcat.php");
+                }
+                elseif($view=="editpostcat"){
+                  include("view/editpostcat.php");
+                }
+                elseif($view=="users"){
+                  include("view/users.php");
+                }
+                elseif($view=="admin_info"){
+                  include("view/admin_info.php");
                 }
             }
             

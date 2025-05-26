@@ -14,7 +14,7 @@ if(isset( $_GET['deleteid'])){
 <div class="contact ms-3">
     <div class="contact-title">
         <h1>
-            All Contact
+            All Members
         </h1>
     </div>
     <div class="contact-data">
