@@ -1,4 +1,4 @@
 <?php
-$view="editpost";
+$view="payment";
 include('temp.php');
 ?>

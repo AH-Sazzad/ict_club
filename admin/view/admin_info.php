@@ -18,7 +18,7 @@ if (isset($_POST['submit'])) {
         $img_path = '';
     }
 
-    // Always escape your variables or use prepared statements (recommended)
+    
     $name = mysqli_real_escape_string($conn, $name);
     $bio = mysqli_real_escape_string($conn, $bio);
     $img_path = mysqli_real_escape_string($conn, $img_path);

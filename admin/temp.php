@@ -5,7 +5,10 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 
 include_once(__DIR__ . '/../config.php'); 
- include_once('../includes/admin_head.php'); 
+ 
+
+  include_once('../includes/admin_head.php'); 
+ 
 
 
 
@@ -82,6 +85,9 @@ if(isset($_GET['adminlogout'])){
                 elseif($view=="postcat"){
                   include("view/postcat.php");
                 }
+                elseif($view=="post_tag"){
+                  include("view/post_tag.php");
+                }
                 elseif($view=="editpostcat"){
                   include("view/editpostcat.php");
                 }
@@ -90,6 +96,18 @@ if(isset($_GET['adminlogout'])){
                 }
                 elseif($view=="admin_info"){
                   include("view/admin_info.php");
+                }
+                elseif($view=="manage_post"){
+                  include("view/allpost.php");
+                }
+                elseif($view=="editpost"){
+                  include("view/editpost.php");
+                }
+                elseif($view=="payment"){
+                  include("view/payment.php");
+                }
+                elseif($view=="admission_view"){
+                  include("view/admission_view.php");
                 }
             }
             

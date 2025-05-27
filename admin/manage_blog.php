@@ -1,1 +1,4 @@
-<h1>Manage Blog</h1>
+<?php
+$view='manage_post';
+include("temp.php");
+?>

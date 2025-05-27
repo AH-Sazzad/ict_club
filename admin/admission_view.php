@@ -1,4 +1,4 @@
 <?php
-$view="editpost";
+$view="admission_view";
 include('temp.php');
 ?>

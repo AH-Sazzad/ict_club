@@ -26,7 +26,7 @@ include_once('header.php');
                 
             </div>
             <div class="login">
-                <a href="pages/admission.php"><button class="btn btn-outline-success">Get Started</button></a>
+                <a href="admission.php"><button class="btn btn-outline-success">Get Started</button></a>
             </div>
         </div>
     </nav>

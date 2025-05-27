@@ -106,6 +106,11 @@ $img=$admin_data['profile'];
                         <span class="sub-item">Category</span>
                       </a>
                     </li>
+                    <li>
+                      <a href="../admin/post_tag.php">
+                        <span class="sub-item">Tag</span>
+                      </a>
+                    </li>
                   </ul>
                 </div>
               </li>
@@ -143,14 +148,19 @@ $img=$admin_data['profile'];
                         <span class="sub-item">Admission</span>
                       </a>
                     </li>
+                    <li>
+                      <a href="../admin/manage_users.php">
+                        <span class="sub-item">Users</span>
+                      </a>
+                    </li>
                   </ul>
                 </div>
               </li>
               
               <li class="nav-item">
-                <a href="../../documentation/index.html">
+                <a href="payment.php">
                   <i class="fas fa-file"></i>
-                  <p>Documentation</p>
+                  <p>Payment</p>
                   <span class="badge badge-secondary">1</span>
                 </a>
               </li>

@@ -23,4 +23,4 @@ include_once(__DIR__ . '/../includes/blogheader.php');
   </section>
 </main>
 <?php
- include_once(__DIR__ . '/../includes/footer.php'); ?>
+ include_once(__DIR__ . '/../includes/blogfooter.php'); ?>

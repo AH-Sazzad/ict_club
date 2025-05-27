@@ -18,10 +18,19 @@
     <script src="/ict_club/assets/js/popper.min.js"></script>
     <script src="/ict_club/assets/js/kaiadmin.min.js"></script>
 
-    <!-- jQuery Scrollbar -->
-    <script src="../assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
-    <!-- jQuery Sparkline -->
-    <script src="assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>
+<script src="https://cdn.tiny.cloud/1/vgtfmt6x2paen95zevfy8abzwzslvc0ppfc9foihsmwi26lp/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
+
+<script>
+  tinymce.init({
+    selector: '#description',  // Match this to your textarea ID
+    plugins: 'link image code lists',
+    toolbar: 'undo redo | styles | bold italic underline | alignleft aligncenter alignright | bullist numlist | link image | code',
+    height: 400
+  });
+</script>
+
+
+
     <script src="https://kit.fontawesome.com/766c9317c8.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
