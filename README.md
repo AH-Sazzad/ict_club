@@ -14,3 +14,5 @@ $dbName ="blog_pro"; your db name
 $conn = mysqli_connect($servername, $username, $password,$dbName);
 
 ?>
+admin email=demo@gmail.com
+admin Pass =12345
