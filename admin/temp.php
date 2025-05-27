@@ -109,6 +109,12 @@ if(isset($_GET['adminlogout'])){
                 elseif($view=="admission_view"){
                   include("view/admission_view.php");
                 }
+                elseif($view=="comment"){
+                  include("view/comment.php");
+                }
+                elseif($view=="read_comment"){
+                  include("view/readcomment.php");
+                }
             }
             
             ?>

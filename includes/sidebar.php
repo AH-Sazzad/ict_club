@@ -111,6 +111,11 @@ $img=$admin_data['profile'];
                         <span class="sub-item">Tag</span>
                       </a>
                     </li>
+                    <li>
+                      <a href="../admin/comment.php">
+                        <span class="sub-item">Comment</span>
+                      </a>
+                    </li>
                   </ul>
                 </div>
               </li>
