@@ -10,7 +10,7 @@ $bio=$admin_data['bio'];
 $email=$admin_data['email'];
 $img=$admin_data['profile'];
 
-$post="SELECT*FROM post ORDER BY id DESC LIMIT 3";
+$post="SELECT*FROM post ORDER BY id DESC LIMIT 1";
 $query_post=mysqli_query($conn,$post);
 //
 
